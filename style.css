@@ -18,9 +18,15 @@
 .navbar{
 position:fixed;
 width:100%;
-background:red
-;
+padding: 30px 0; 
 font-family:'ubuntu',sans-serif;
+transition: all 0.3s ease;
+}
+  
+.navbar.sticky{
+    padding: 15px 0;
+ background:crimson;
+
 }
 .navbar .max-width{
     display:flex;
@@ -28,20 +34,57 @@ font-family:'ubuntu',sans-serif;
     justify-content: space-between;
 }
 
-.navbar .logo a{
+.navbar .logo a{ 
     font-size: 35px;
     font-weight: 600;
-    color:cadetblue
+    color:cadetblue;
 
+}
+.navbar .logo a span {
+    color:crimson;
 }
 .navbar .menu li{
       list-style:none;
       display:inline-block;
 }
 
-}
 .navbar .menu li a{
-    color:bisque
+    color:bisque; 
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
 }
+.navbar .menu li a:hover{
+    color:crimson;
+}
+/*home section stylying */
+ .home{
+      display:flex;
+      background:url("https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/125524521_2856988541199594_5080070603420597884_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=0uLcEr7HajkAX8q2kZT&tn=TlBHsM1aK78w4JZ1&_nc_ht=scontent.fktm8-1.fna&oh=00_AT9sjlq9QQrS49P9w97vE_74UgPerDgjJL0tkl2AvDw2EA&oe=6205AB6C")no-repeat center;
+      height: 150vh;
+      color:white;
+      min-height:500px;
+      font-family:'ubuntu',sans-serif;
+ }
+ .home .max-width{
+     margin:auto 0 auto 40px;
+ }
+ .home .home-content .text-1{
+        font-size: 27px;
+ }
+ .home .home-content .text-2{
+    font-size: 75px;
+    font-weight:600;
+    margin-left:-3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin:5px 0;
+}
+.home .home-content .text-3 span {
+    color:rgb(245, 6, 6);
+
 
 }
+        
