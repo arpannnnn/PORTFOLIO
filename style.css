@@ -332,34 +332,37 @@ background: white;
 
 
 /* responsive media query start */
-@media (max-width:1300px){
+@media (max-width:991px){
      .home .max-width{
         margin-left: 0px;
      }
+     .menu-btn{
+        z-index: 999;
+       display:block;
+   }
 }
-     @media (max-width:1104px){
+     @media (max-width:947px){
         .about .about-content .left img{
             height:350px;
             width:350px;
             
         }
      }
-                @media (max-width:991px){
+                @media (max-width:947px){
             .max-width{
                 padding: 0 50px;
             }
         
-     .menu-btn{
-          
-         display:block;
-         z-index: 999;
+    
+     .menu-btn i.active:before{
+         content: "\f00d";
      }
      .navbar .menu{
          color:aliceblue;
            position:fixed;
            height:100vh;
            width:100%;
-           left:-100;
+           left:0;
            top:0;
            background:black; 
            text-align: center;  
