@@ -36,7 +36,7 @@ $(document).ready(function(){
     var typed=new Typed(".typing-2",{
         strings: ["Youtuber","Developer","Coder","Designer","Freelancer"],
         typedSpeed:30,
-        backS peed:60,
+        backSpeed:60,
         loop:true,
 
    });
