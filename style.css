@@ -73,7 +73,7 @@ transition: all 0.3s ease;
     position:fixed;
     height:45px;
     width:42px;
-    background:crimson;
+    background:#0089BA;
     right:30px;
     bottom:10px;
     text-align: center;
@@ -176,7 +176,7 @@ transition: all 0.3s ease;
         bottom: -13px;
         left:50%;
         font-size: 20px;
-        color: crimson;
+        color: black;
        padding:5px;
         background:white;
         transform:translateX(-50%)
@@ -234,10 +234,10 @@ transition: all 0.3s ease;
       /*  services section*/
       .services{
           background:orange;
-          color:white;
+          color:black;
       }
       .services .title::before{
-          background: white;
+          background: black;
       }
       .services .title::after{
           background:orange;
@@ -245,7 +245,7 @@ transition: all 0.3s ease;
       }
       .services .serv-content .card{
           width: calc(33% - 20px);
-          background:#222 ;
+          background:white ;
           text-align: center;
           border-radius: 6px;
           padding:20px 25px;
@@ -264,7 +264,7 @@ transition: all 0.3s ease;
       }
       .services .serv-content .card i{
           font-size: 50px;
-          color:bisque;
+          color:orange;
           transition:color 0.3s ease;
       }
       .services .serv-content .card:hover i{
@@ -279,8 +279,11 @@ transition: all 0.3s ease;
           margin:10px 0 7px 0;
       }
       /* Skills section */
+  
  .skills .title:after{
        content:"what i know";
+      
+       
  }
  .skills .skills-content .column{
      width:calc(50% - 30px);
@@ -350,7 +353,16 @@ background: white;
  }
 
  /*contact section start*/
- 
+ .contact{
+  background:#0089BA;
+  
+ }
+ .contact .title::before{
+    background: black;
+}
+.contact .title::after{
+    background:#0089BA;
+}
  .contact .title::after{
        content:"get in touch";
  }
@@ -379,7 +391,7 @@ background: white;
  }
  .contact .contact-content .row i{
      font-size: 25px;
-     color:crimson;
+     color:black;
  }
  .contact .contact-content .info .head{
      font-weight: 500;
@@ -430,8 +442,8 @@ background: white;
  .contact .right form .button button{
      width:100%;
      height:100%;
-     border:2px solid crimson;
-     background: crimson;
+     border:2px solid black;
+     background: black;
      color:white;
      font-size: 20px;
      font-weight:500;
@@ -440,7 +452,7 @@ background: white;
      transition: all 0.3s ease;
  }
  .contact .right form .button button:hover{
-     color:crimson;
+     color:black;
      background: none;
  }
  /* footer section*/
