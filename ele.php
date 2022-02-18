@@ -5,15 +5,15 @@
 	$date=date("l, F jS, Y");
 	$time=date("h:i A");
 
-	$firstName=$_POST['name'];
-	$email=$_POST['email'];
-	$phone=$_POST['message'];
+	$firstName=$_REQUEST['name'];
+	$email=$_REQUEST['email'];
+	$message=$_REQUEST['message'];
 
 	$msg="
-		Message sent from website form subodhdahal1.com on date  $date, hour: $time.\n	
+		Message sent from website on date  $date, hour: $time.\n	
 		Name: $firstName\n
 		Email: $email\n	
-		phone: $phone\n
+		message: $message\n
 		";
 	if($email=="") {
 	echo "<div class='alert alert-danger'>
