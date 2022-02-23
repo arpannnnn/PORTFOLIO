@@ -1,45 +1,30 @@
 <?php
+	$to="arpannacharya@gmail.com";/*Your Email*/
+	$subject = "Registration from the landing "; /*Issue*/
 
-$errors = [];
-$errorMessage = '';
+	$date=date("l, F jS, Y");
+	$time=date("h:i A");
 
-if (!empty($_POST)) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+	$firstName=$_REQUEST['name'];
+	$email=$_REQUEST['email'];
+	$message=$_REQUEST['message'];
 
-    if (empty($name)) {
-        $errors[] = 'Name is empty';
-    }
-
-    if (empty($email)) {
-        $errors[] = 'Email is empty';
-    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Email is invalid';
-    }
-
-    if (empty($message)) {
-        $errors[] = 'Message is empty';
-    }
-
-
-    if (empty($errors)) {
-        $toEmail = 'rockarpan31@gmail.com';
-        $emailSubject = 'New email from your contant form';
-        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
-
-        $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Message:", $message];
-        $body = join(PHP_EOL, $bodyParagraphs);
-
-        if (mail($toEmail, $emailSubject, $body, $headers)) {
-            header('Location: thank-you.html');
-        } else {
-            $errorMessage = 'Oops, something went wrong. Please try again later';
-        }
-    } else {
-        $allErrors = join('<br/>', $errors);
-        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-    }
-}
-
+	$msg="
+		Message sent from website form on date  $date, hour: $time.\n	
+		Name: $firstName\n
+		Email: $email\n	
+		message: $message\n
+		";
+	if($email=="") {
+	echo "<div class='alert alert-danger'>
+			  <a class='close' data-dismiss='alert'>×</a>
+			  <strong>Warning!</strong> Please fill all the fields.
+		  </div>";
+	} else {
+	mail($to,$subject,$msg,"From:".$email);
+	echo "<div class='alert alert-success'>
+			  <a class='close' data-dismiss='alert'>×</a>
+			  <strong>Thank you for your message!</strong>
+		  </div>";
+	}
 ?>

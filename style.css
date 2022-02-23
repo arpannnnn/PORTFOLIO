@@ -35,7 +35,7 @@ transition: all 0.3s ease;
 .navbar .logo a{ 
     font-size: 35px;
     font-weight: 600;
-    color:bisque;
+    color:	#808080	;
 }
 .navbar .logo a span{
   color:#0089BA; 
@@ -187,9 +187,9 @@ transition: all 0.3s ease;
     .about,.services , .skills{
           font-family: 'poppins',sans-serif;
     }
-    .about .title::after{
+    /*.about .title::after{
         content:"who i am";
-    }
+    }*/
    
     .about .about-content .left{
         width:45%
@@ -245,10 +245,10 @@ transition: all 0.3s ease;
       .services .title::before{
           background: black;
       }
-      .services .title::after{
+      /*.services .title::after{
           background:orange;
           content:"What I Provide";
-      }
+      }*/
       .services .serv-content   .card{
           width: calc(33% - 20px);
           background:white ;
@@ -286,11 +286,11 @@ transition: all 0.3s ease;
       }
       /* Skills section */
   
- .skills .title:after{
+ /*.skills .title:after{
        content:"what i know";
       
        
- }
+ }*/
  .skills .skills-content .column{
      width:calc(50% - 30px);
  }
@@ -367,13 +367,13 @@ background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-2
 background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.teams .title::after{
+/*.teams .title::after{
     content: "who with me";
-    background: #005AA7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #005AA7;  
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  
     background: linear-gradient(to right, #FFFDE4, #005AA7);
     
-}
+}*/
 .teams .carousel .card{
     background: #005AA7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -446,10 +446,9 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
 
  /*contact section start*/
  .contact{
-background: #d9a7c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: #d9a7c7;  
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+background: linear-gradient(to right, #fffcdc, #d9a7c7); 
   
  }
  .contact .title::before{
@@ -458,13 +457,13 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
 .contact .title::after{
     background:#0089BA;
 }
- .contact .title::after{
+ /*.contact .title::after{
        content:"get in touch";
-       background: #d9a7c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       background: #d9a7c7;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+background: linear-gradient(to right, #fffcdc, #d9a7c7); 
 
- }
+ }*/
  .contact .contact-content .column{
      width:calc(50% - 30px);
  }
@@ -479,8 +478,9 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
  }
  .contact .contact-content .left .icons{
      margin:10px 0;
-    
- }
+            
+    }
+ 
  .contact .contact-content .row{
      display:flex;
      height:65px;
@@ -491,7 +491,7 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
  }
  .contact .contact-content .row i{
      font-size: 25px;
-     color:black;
+     color:#0089BA;
  }
  .contact .contact-content .info .head{
      font-weight: 500;
