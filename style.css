@@ -96,30 +96,38 @@ transition: all 0.3s ease;
 /*home section stylying */
  .home{
       display:flex;
-      background-image: url(images/Light\ Blue\ Simple\ Light\ App\ Download\ Website.jpg);
+      background-image: url(images/arppppu.jpg) ;
       height: 100vh;
       color:black;
-      min-height:500px;
+      min-height:800px;
+      background-position:0%;
+      
+      background-size: cover;
+      background-attachment: fixed;
       font-family:'ubuntu',sans-serif;
  }
  .home .max-width{
-     margin:auto 0 auto 40px;
+     margin:auto 0 auto 20px;
  }
  
  .home .home-content .text-1{
-        font-size: 27px;
+        font-size: 35px;
+        font-weight:100;
  }
  .home .home-content .text-2{
     font-size: 70px;
     font-weight:600;
     margin-left:-3px;
+    color:#0089BA;
 }
 .home .home-content .text-3{
-    font-size: 35px;
+    font-size: 40px;
     margin:5px 0;
+    font-weight: 100;
 }
 .home .home-content .text-3 span {
-    color:#0089BA;
+    color:green;
+    font-weight: 600;
 }
 .home .home-content a {
     display:inline-block;
@@ -579,7 +587,7 @@ footer span a:hover{
 
 
 
- body{
+ .body{
     padding: 0;
     margin: 0;
   }
@@ -626,6 +634,14 @@ footer span a:hover{
     top: -10%;
     left: -10%;
   }
+
+
+
+
+
+
+
+ 
 
 
 
