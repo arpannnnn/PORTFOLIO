@@ -57,7 +57,7 @@ transition: all 0.3s ease;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color:crimson;
+    color:black;
 }
 .navbar.sticky .menu li a:hover{
     color:orange;
@@ -103,7 +103,7 @@ transition: all 0.3s ease;
       background-position:0%;
       
       background-size: cover;
-      background-attachment: fixed;
+      background-attachment:scroll;
       font-family:'ubuntu',sans-serif;
  }
  .home .max-width{
@@ -360,10 +360,10 @@ background: white;
      width:80%;
  }
  .skills .skills-content .js::before{
-     width:30%;
+     width:67%;
  }
  .skills .skills-content .php::before{
-     width:10%;
+     width:45%;
  }
 
 
