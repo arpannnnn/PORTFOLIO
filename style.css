@@ -554,7 +554,7 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7);
      color:white;
      font-size: 20px;
      font-weight:500;
-     border-radius: 6px;
+     border-radius: 20px 40px 60px 80px;
      cursor: pointer;
      transition: all 0.3s ease;
  }
