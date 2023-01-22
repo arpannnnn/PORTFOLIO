@@ -231,7 +231,7 @@ transition: all 0.3s ease;
         font-weight: 500;
         padding:10px 30px;
         margin-top: 20px;
-        border-radius: 6px;
+        border-radius: 20px 40px 60px 80px;
         border: 2px solid #0089BA;
         transition: all 0.3s ease;
     }
