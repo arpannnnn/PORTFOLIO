@@ -226,10 +226,7 @@ transition: all 0.3s ease;
     .about .about-content .right a{
         display:inline-block;
         background:#0089BA;
-        color: background: #39B5D3;
-background: -webkit-radial-gradient(top, #39B5D3, #231796);
-background: -moz-radial-gradient(top, #39B5D3, #231796);
-background: radial-gradient(to bottom, #39B5D3, #231796);
+        color: white;
         font-size: 20px;
         font-weight: 500;
         padding:10px 30px;
@@ -240,7 +237,11 @@ background: radial-gradient(to bottom, #39B5D3, #231796);
     }
     .about .about-content .right a:hover{
         color: #0089BA;
-        background: white;
+        background: /* Created with https://www.css-gradient.com */
+background: #39B5D3;
+background: -webkit-radial-gradient(top, #39B5D3, #231796);
+background: -moz-radial-gradient(top, #39B5D3, #231796);
+background: radial-gradient(to bottom, #39B5D3, #231796);
         }
 
 
