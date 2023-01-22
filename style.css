@@ -318,7 +318,7 @@ transition: all 0.3s ease;
     font-weight: 500;
     padding:8px 16px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 20px 70px;
     border: 2px solid #0089BA;
     transition: all 0.3s ease;
  }
@@ -527,7 +527,7 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7);
      height:100%;
      width:100%;
      border:1px solid lightgray;
-     border-radius: 6px;
+     border-radius: 20px 70px;
      outline:none;
      padding:0 15px;
      font-size: 17px;
