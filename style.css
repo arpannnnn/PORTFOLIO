@@ -629,12 +629,25 @@ footer span a:hover{
     top: -10%;
     left: -10%;
   }
+body 
+ 
 
+  #timedate {
+    font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align:justify;
+    width: 50%;
+    margin: 500px auto;
+    color:black;
+    font-weight: 600;
+    padding: 30px;
+    width:calc(30% - 90px);
+    margin-right: 10px;
 
-
-
-
-
+   
+    
+    
+    
+  }
 
  
 
